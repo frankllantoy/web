@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️Quieres volver a ser mi novia❤️</title>
+    <style>
+        .body {
+            background-color: crimson;
+            text-align: center;
+        }
+
+        .body__title{
+            color: white;
+        }
+        
+        .body__img{
+            width: 100%;
+            border-radius: 10%;
+        }        
+    </style>
+</head>
+<body class="body">
+    <h1 class ="body__title">❤️¿QUIERES SER MI NOVIA KATALINA HERMOSA?❤️ </h1>
+    <img src="https://media.revistagq.com/photos/64648f8c244ebcafee84130b/16:9/w_2560%2Cc_limit/cr7.jpeg.jpg" 
+    alt="Foto de mi Bicho" class="body__img"/>
+    <button id="yes">Si Quiero 🍆 🍑💦🥵</button>
+    <button id="no">😔Nel perrazo😔</button>
+
+    <script>
+        const vutonSi = document.getElementById('yes');
+        const vutonNo = document.getElementById('no');
+
+        const somosNovios = () => {
+            alert('💕 Ahora somo esposos 💕');
+            alert('😱 Nuestra boda es Mañana 😱');
+            location.href = 'https://youtu.be/am1_JLFDFMw?t=19';
+
+        }
+
+        const evitarQueSeRompaMiCora = ()=> {
+            vutonNo.style.position = 'absolute';
+            vutonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+            vutonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+        }
+
+        vutonSi.addEventListener('click', somosNovios);
+        vutonNo.addEventListener('mouseover', evitarQueSeRompaMiCora);
+    </script>
+</body>
+</html>
